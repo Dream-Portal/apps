@@ -95,6 +95,7 @@ p {
 }
 
 .image{
+	position: relative;
 	width: 100%;
 	height: 150px;
 	object-fit: scale-down;
@@ -112,13 +113,13 @@ i {
   -webkit-transform: rotate(45deg);
 }
 
-.iframeCntainer{
+.iframeContainer{
 	position: relative;
 	width: 100%;
 	padding-bottom: 56.25%;
 	height: 0;
 }
-.iframeCntainer iframe{
+.iframeContainer iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
