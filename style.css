@@ -79,8 +79,9 @@ p {
 	font-size: 18px;
 }
 
-.href {
+a {
 	font-weight: bold;
+	font-style: italic;
 }
 
 .home-button {
